@@ -33,22 +33,11 @@ function SignOut(){
       <>
         <div>
           <ul>
-            <li>
-              <a href="default.asp">Home</a>
-            </li>
-            <li>
-              <a href="news.asp">News</a>
-            </li>
-            <li>
-              <a href="contact.asp">Contact</a>
-            </li>
-            <li>
-              <a href="about.asp">About</a>
-            </li>
-            <li style={{ float: "right" }}>
-              <a href="/" onClick={() => signOut(auth)}>
-                Logout
-              </a>
+            <li><a href="default.html">Home</a></li>
+            <li><a href="news.html">News</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="about.html">About</a></li>
+            <li style={{ float: "right" }}><a href="/" onClick={() => signOut(auth)}> Logout</a>
             </li>
           </ul>
           <h1>Hello, {user.email}</h1>
