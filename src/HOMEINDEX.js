@@ -1,4 +1,4 @@
-// import React, { useState,useCallback }  from 'react';
+// import React, { useCallback }  from 'react';
 import TariSathe from './Images/TariSathe.jpg';
 import LoveNiStory from './Images/LoveNiStory.jpg';
 import babubhai from './Images/babubhai.jpg';
@@ -7,10 +7,10 @@ import pani from "./Images/pani.jpg";
 import firangi from "./Images/firangi.jpg";
 import dahavi from "./Images/dahavi.jpg";
 import shortcircuit from "./Images/shortcircuit.jpg";
-
+// import Photolist from "./IMGDATA";
 import './App.css';
 
-// import { Link } from "gatsby";
+// import { Link } from "react-router-dom";
 
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -22,22 +22,9 @@ import "swiper/css/navigation";
 
 // import required modules
 import { Autoplay, Pagination, Navigation } from "swiper";
-// import Photolist from "./IMGDATA";
+
 
 function HOMEINDEX() {
-        
-        // const IMAGES = useCallback((value) => {
-        //   const Photolist = [...Photolist];
-        //   Photolist.map((item, i) => {
-        //     if (value.target.id === item.category) {
-        //       item.active = true;
-        //     } else {
-        //       item.active = false;
-        //     }
-        //   });
-        //   // setPhotolist(Photolist);
-        // });
-        
 
   return (
     <div>
@@ -160,42 +147,7 @@ function HOMEINDEX() {
 
       {/* Upcomming and Released Button Section */}
 
-      {/* <div class="content-center">
-        <button
-          class="text-white content-center bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 text-lg "
-          id="upcomming"
-          onClick={(e) => IMAGES(e)}
-        >
-          UPCOMMING
-        </button>
-        <button
-          class="text-white content-center bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600  text-lg"
-          id="relesed"
-          onClick={(e) => IMAGES(e)}
-        >
-          RELESED
-        </button>
-      </div> */}
-      <div>
-        {/* {Photolist.map((item, i) => {
-          return (
-            <Link
-              to={item.path}
-              className={
-                item.active ? "project-tile active" : "project-tile hidden"
-              }
-              key={i}
-            >
-              <div className="grid__cell">
-                <img src={item.backgroundUrl} alt={item.title} />
-                <div className="grid__cell__title">
-                  <h4>{item.title}</h4>
-                </div>
-              </div>
-            </Link>
-          );
-        })} */}
-      </div>
+      
 
       {/* Distribution Section */}
 
