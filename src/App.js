@@ -50,7 +50,7 @@ function App() {
           <Route path="/contactus" element={<Contact />} />
         </Routes>
         <Footer />
-      </Router> */}
+      </Router>  */}
 
       {/* <REDUCER /> */}
 
@@ -82,7 +82,7 @@ function App() {
           <Route path="/ContactUs" element={<ContactUs />} />
         </Routes>
         <Footer />
-      </Router>
+    </Router>
       {/* <HOMEINDEX /> */}
     </div>
   );

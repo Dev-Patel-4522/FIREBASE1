@@ -16,7 +16,7 @@ export default function ContactUs() {
           class="lg:w-2/3 md:w-1/2 bg-gray-300 rounded-lg overflow-hidden sm:mr-10 p-10 flex items justify-start relative"
           style={{ height: "700px", width: "1688px" }}
         >
-          <iframes
+          <iframe
             width="100%"
             height="100%"
             class="absolute inset-0"
@@ -25,7 +25,7 @@ export default function ContactUs() {
             marginwidth="0"
             src="https://maps.google.com/maps?q=harekrishna%20complex%3BBopal%3B%20380058&amp;t=m&amp;z=10&amp;output=embed&amp;iwloc=near"
             aria-label="harekrishna complex;Bopal; 380058"
-          ></iframes>
+          ></iframe>
         </div>
         <div
           class="container px-5 py-24 mx-auto flex"

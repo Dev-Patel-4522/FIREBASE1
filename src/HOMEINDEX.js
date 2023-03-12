@@ -7,11 +7,11 @@ import pani from "./Images/pani.jpg";
 import firangi from "./Images/firangi.jpg";
 import dahavi from "./Images/dahavi.jpg";
 import shortcircuit from "./Images/shortcircuit.jpg";
-import anokhee from "./Images/anokhee.jpg";
-import fairlady from "./Images/fairlady.jpg";
-import fikarnot from "./Images/fikarnot.jpg";
-import SHANNISHAN from "./Images/SHANNISHAN.jpg";
-import category from "./IMGDATA.js";
+// import anokhee from "./Images/anokhee.jpg";
+// import fairlady from "./Images/fairlady.jpg";
+// import fikarnot from "./Images/fikarnot.jpg";
+// import SHANNISHAN from "./Images/SHANNISHAN.jpg";
+// import category from "./IMGDATA.js";
 import './App.css';
 
 // import { Link } from "react-router-dom";
@@ -30,12 +30,12 @@ import { Autoplay, Pagination, Navigation } from "swiper";
 
 function HOMEINDEX() {
 
-    let imageGallery = [
-      { src: { anokhee }, title: "img1" },
-      { src: { fairlady }, title: "img2" },
-      { src: { fikarnot }, title: "img3" },
-      { src: { SHANNISHAN }, title: "img4" },
-    ];
+    // let imageGallery = [
+    //   { src: { anokhee }, title: "img1" },
+    //   { src: { fairlady }, title: "img2" },
+    //   { src: { fikarnot }, title: "img3" },
+    //   { src: { SHANNISHAN }, title: "img4" },
+    // ];
   // const [tages, setTages] = useState("all");
   // const [filteredImages, setFilteredImages] = useState([]);
 
@@ -165,7 +165,7 @@ function HOMEINDEX() {
       </section>
 
       {/* Upcomming and Released Button Section */}
-      <section class="overflow-hidden text-neutral-700">
+      {/* <section class="overflow-hidden text-neutral-700">
         <div class="container mx-auto px-5 py-2 lg:px-32 lg:pt-12">
           <div>
             {imageGallery.map((images) => (
@@ -177,7 +177,7 @@ function HOMEINDEX() {
               />
             ))}
           </div>
-          {/* <div>
+          <div>
             <TagButton
               name="upcomming"
               tagActive={tages === "upcomming" ? true : false}
@@ -198,7 +198,7 @@ function HOMEINDEX() {
                 </a>
               </div>
             ))}
-            </div>*/}
+            </div>
         </div>
 
         {category.map((values) => {
@@ -212,7 +212,7 @@ function HOMEINDEX() {
             </div>
           );
         })}
-      </section>
+      // </section> */}
 
       {/* Distribution Section */}
 
